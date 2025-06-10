@@ -1,86 +1,103 @@
-📚 EduGenie AI – Your Personal Learning Companion
+# 📚 EduGenie AI – Your Personal Learning Companion
 
-EduGenie AI is an intelligent and user-friendly Streamlit web app that leverages the power of Google Gemini (Generative AI) to make learning interactive, accessible, and personalized for students from grades 6 to 12. Whether you’re a visual learner, prefer in-depth textual explanations, or thrive with interactive Socratic dialogue, EduGenie AI adapts to your preferred learning style.
+EduGenie AI is an intelligent and user-friendly Streamlit web app that leverages the power of Google Gemini (Generative AI) to make learning interactive, accessible, and personalized for students from grades 6 to 12. Whether you're a visual learner, prefer in-depth textual explanations, or thrive with interactive Socratic dialogue, EduGenie AI adapts to your preferred learning style.
 
-⸻
+---
 
-🚀 Features
-	•	✅ Ask Anything: Type any subject-related question and get AI-generated answers instantly.
-	•	🧠 Multiple Learning Styles:
-	•	Textual: Textbook-style detailed explanations.
-	•	Visual: Visual analogies and intuitive comparisons.
-	•	Interactive: Socratic step-by-step reasoning. (more styles to be added in the future)
-	•	📄 Doc Support: Upload class notes or books in PDF format and extract text for question generation or explanation. Doubts in image format are also allowed
-	•	📈 Track Progress: View your learning history and question count.
-	•	📝 Learning History: See your past queries and explanations to reinforce understanding.
+## 🚀 Features
 
-⸻
+* ✅ **Ask Anything**: Type any subject-related question and get AI-generated answers instantly.
+* 🧠 **Multiple Learning Styles**:
+    * **Textual**: Textbook-style detailed explanations.
+    * **Visual**: Visual analogies and intuitive comparisons.
+    * **Interactive**: Socratic step-by-step reasoning. (more styles to be added in the future)
+* 📄 **Doc Support**: Upload class notes or books in PDF format and extract text for question generation or explanation. Doubts in image format are also allowed.
+* 📈 **Track Progress**: View your learning history and question count.
+* 📝 **Learning History**: See your past queries and explanations to reinforce understanding.
 
-📷 Demo
+---
 
+## 📷 Demo
+
+[![EduGenie AI Demo](https://img.youtube.com/vi/YOUR_YOUTUBE_VIDEO_ID/0.jpg)](https://drive.google.com/file/d/1UyLxoTGy6zxXNzdzhDqv3M7dcB5V3Txl/view?usp=share_link)
 https://drive.google.com/file/d/1UyLxoTGy6zxXNzdzhDqv3M7dcB5V3Txl/view?usp=share_link
 
-⸻
+---
 
-🔧 Tech Stack
-	•	Frontend: Streamlit
-	•	AI Backend: Gemini 1.5 Flash (Google Generative AI)
-	•	PDF Processing: PyMuPDF (fitz)
+## 🔧 Tech Stack
 
-⸻
+* **Frontend**: Streamlit
+* **AI Backend**: Gemini 1.5 Flash (Google Generative AI)
+* **PDF Processing**: PyMuPDF (fitz)
 
-📁 Project Structure
+---
 
-├── app.py              # Streamlit UI and main logic
-├── utils.py            # AI interaction, logging, and PDF processing
-├── requirements.txt    # Python dependencies
-└── README.md           # Project overview
+## 📁 Project Structure
 
+```
+├── app.py           # Streamlit UI and main logic
+├── utils.py         # AI interaction, logging, and PDF processing
+├── requirements.txt # Python dependencies
+└── README.md        # Project overview
+```
 
-⸻
+---
 
-✅ Getting Started
+## ✅ Getting Started
 
-🔧 Installation
+### 🔧 Installation
 
-git clone https://github.com/yourusername/edugenie-ai.git
-cd edugenie-ai
-pip install -r requirements.txt
+1.  Clone the repository:
+    ```bash
+    git clone [https://github.com/yourusername/edugenie-ai.git](https://github.com/yourusername/edugenie-ai.git)
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd edugenie-ai
+    ```
+3.  Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-🔑 Setup
+### 🔑 Setup
 
-Replace "API_KEY" in utils.py with your Google Generative AI API key.
+Replace `"YOUR_ACTUAL_API_KEY"` in `utils.py` with your Google Generative AI API key.
 
+```python
 genai.configure(api_key="YOUR_ACTUAL_API_KEY")
+```
 
-▶️ Run the App
+### ▶️ Run the App
 
+```bash
 streamlit run app.py
+```
 
+---
 
-⸻
+## 🌟 Potential Use Cases
 
-🌟 Potential Use Cases
-	•	Students: Get instant help on tough concepts.
-	•	Teachers: Generate concept explanations for lesson plans.
-	•	Parents: Support children in homework and revision.
-	•	Self-learners: Study independently using AI as a tutor.
+* **Students**: Get instant help on tough concepts.
+* **Teachers**: Generate concept explanations for lesson plans.
+* **Parents**: Support children in homework and revision.
+* **Self-learners**: Study independently using AI as a tutor.
 
-⸻
+---
 
-📬 Contributing
+## 📬 Contributing
 
-Have ideas to improve EduGenie AI? PRs and issues are welcome!
+Have ideas to improve EduGenie AI? Pull requests and issues are welcome!
 
-⸻
+---
 
-🛡️ Disclaimer
+## 🛡️ Disclaimer
 
 EduGenie AI is an educational support tool. Answers may not always be perfect — always verify with a teacher or trusted source.
 
-⸻
+---
 
-📃 License
+## 📃 License
 
 This project is open for educational and personal use. No license applied.
-
+```
